@@ -1,0 +1,15 @@
+{
+  "rewrites": [
+    {
+      "source": "/activities/defense-india/(.*)",
+      "destination": "/activities/defense-india/$1"
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/activities/defense-india/",
+      "statusCode": 302
+    }
+  ]
+}
