@@ -1,15 +1,32 @@
 {
-  "rewrites": [
-    {
-      "source": "/activities/defense-india/(.*)",
-      "destination": "/activities/defense-india/$1"
-    }
-  ],
   "redirects": [
     {
       "source": "/",
       "destination": "/activities/defense-india/",
       "statusCode": 302
+    },
+    {
+      "source": "/activities/defense-india",
+      "destination": "/activities/defense-india/",
+      "statusCode": 301
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/activities/defense-india/assets/(.*)",
+      "destination": "/assets/$1"
+    },
+    {
+      "source": "/activities/defense-india/favicon.svg",
+      "destination": "/favicon.svg"
+    },
+    {
+      "source": "/activities/defense-india/(.*)",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/activities/defense-india/",
+      "destination": "/index.html"
     }
   ]
 }
